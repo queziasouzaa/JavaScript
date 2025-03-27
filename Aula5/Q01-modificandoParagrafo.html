@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <p id="mensagem">Texto original.</p>
+    <button onclick="alterarTexto()">Clique aqui</button>
+
+    <script>
+        function alterarTexto() {
+            let paragrafo = document.getElementById("mensagem");
+            paragrafo.innerText = "Texto alterado com sucesso!";
+        }        
+    </script>
+</body>
+</html>

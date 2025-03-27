@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <p class="texto">Este é um texto de teste.</p>
+    <button onclick="alterarFonte()">Mudar Fonte</button>
+
+    <script>
+        function alterarFonte() {
+            let texto = document.querySelector(".texto");
+            texto.style.fontFamily = "Arial";
+            texto.style.fontSize = "20px";
+        }        
+    </script>
+</body>
+</html>

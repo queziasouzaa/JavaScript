@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+</head>
+<body>
+    <input type="text" id="campoTexto" value="Texto bloqueado" readonly>
+    <button onclick="habilitarCampo()">Habilitar</button>
+
+    <script>
+        function habilitarCampo() {
+            let campo = document.getElementById("campoTexto");
+            campo.removeAttribute("readonly");
+        }        
+    </script>
+</body>
+</html>
